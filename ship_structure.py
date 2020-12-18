@@ -724,14 +724,6 @@ with open("GUVERTENİN 1 METRE ALTI İÇİN BİLEŞKE GERİLMELER.txt", "w") as 
     f.write(f"Dalga Çukuru Tau Değeri : {tau_cukur}\n")
     f.write(f"Dalga Çukuru Sigma VonMisses : {sigma_vonmisses_tepe}\n")
 #tüm değerler txt formatında yazdırıldı
-
-sigma_amplitude=listGerilme_tepe[49]-listGerilme_cukur[49]
-sigma_akma=235
-if sigma_amplitude < sigma_akma/2:
-    print("Geminin ömrü sonsuzdur")
-     
-
-    
         
     
 
